@@ -1,0 +1,9 @@
+[package]
+name = "serenity_modal_collector_testing"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serenity = { git = "https://github.com/pascalharp/serenity", branch = "modal_submit_collector" , features = ["framework", "standard_framework", "rustls_backend", "collector"] }
