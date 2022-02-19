@@ -6,4 +6,4 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-serenity = { git = "https://github.com/pascalharp/serenity", branch = "modal_submit_collector" , features = ["framework", "standard_framework", "rustls_backend", "collector"] }
+serenity = { git = "https://github.com/pascalharp/serenity", branch = "modal_submit_collector" , default-features = false, features = ["client", "gateway", "rustls_backend", "model", "unstable_discord_api", "collector"] }
